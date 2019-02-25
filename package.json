@@ -1,0 +1,19 @@
+{
+  "name": "criador-de-videos",
+  "version": "1.0.0",
+  "description": "Criar vídeos com base em palavras chaves e fazer up para o YouTube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxsonCM/criador-de-videos.git"
+  },
+  "author": "MaxsonCM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaxsonCM/criador-de-videos/issues"
+  },
+  "homepage": "https://github.com/MaxsonCM/criador-de-videos#readme"
+}
