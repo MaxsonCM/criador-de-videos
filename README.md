@@ -1,2 +1,5 @@
-# criador-de-videos
-Criar vídeos automáticos por meio de palavras chaves e postar no youtube
+# video-creator
+Create automatic videos using keywords and post on youtube
+
+
+[Video Example](https://www.youtube.com/watch?v=9wU3zxK8a34)
