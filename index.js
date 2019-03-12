@@ -1,21 +1,17 @@
-const readLine = require('readline-sync')
 
-function start() {
-    const conteudo = {}
+const robots = {
+    userInput: require('./robots/user-input.js'),
+    text: require('./robots/text.js')
+}
 
-    conteudo.procurarTermo = perguntaERetornaTermo()
-    conteudo.prefixo = perguntaERetornaPrefixo()
+async function start() {
+    const content = {}
 
-    function perguntaERetornaTermo(){
-        return readLine.question('Digite um Tema para Buscar no Wikipedia: ')
-    }
-    function perguntaERetornaPrefixo(){
-        const prefixos = ['Quem e', 'O que e', 'A historia de']
-        const selecaoPre = readLine.keyInSelect(prefixos, 'Escolha uma Opçao: ')
-        return prefixos[selecaoPre]
-    }
+    await robots.userInput(content)
+    await robots.text(content)
 
-    console.log(conteudo)
+    console.log(content)
+    
 }
 
 start()
